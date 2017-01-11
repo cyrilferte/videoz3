@@ -11,3 +11,6 @@
 <a class="navbar-wagon-link" style="font-size:30px" href=<%=@film.adlink %> ><p><%= @film.adlinktext %></p></a>
 
 </div>
+<script>
+amplitude.getInstance().logEvent('<%= @film.titre %>');
+</script>
