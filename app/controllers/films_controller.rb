@@ -45,7 +45,7 @@ class FilmsController < ApplicationController
   private
 
   def film_params
-    params.require(:film).permit(:titre, :date, :style, :tags, :link)
+    params.require(:film).permit(:titre, :date, :style, :tags, :link, :adlink, :adlinktext)
   end
   
 end
